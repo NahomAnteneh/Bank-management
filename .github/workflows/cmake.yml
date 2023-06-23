@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.12)
+project(Bank-management)
+
+# Add C++ standard
+set(CMAKE_CXX_STANDARD 11)
+
+# Add the source files
+set(SOURCES bank.cpp)
+
+# Add the executable target
+add_executable(Bank-management ${SOURCES})
